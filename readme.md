@@ -1,0 +1,21 @@
+### DevOps Foundations Course & Cheatsheet
+
+#### Version Control
+
+*Definition: Contains all the code for a project. *
+
+**Best Practices:**
+- Always use version control
+- All of your source code should be versioned
+    - Ex. A new developer should be able to sit down, clone a repo, and run the code with no problem.
+- Commit small and often 
+- Use Descriptive commit messages
+- Don't commit broken code. 
+- Branches should be simple and fit the project needs.
+    - the mechanisms to handle changes should be small and simple
+- Use commit hooks to enforce quality
+- Be carful with secrets (this is when a .gitignore file is very helpful)
+
+**Main Tools**
+- Git
+- GitHub
