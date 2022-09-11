@@ -2,7 +2,7 @@
 
 #### Version Control
 
-*Definition: Contains all the code for a project. *
+*Definition: the task of keeping a software system consisting of many versions and configurations well organized.*
 
 **Best Practices:**
 - Always use version control
