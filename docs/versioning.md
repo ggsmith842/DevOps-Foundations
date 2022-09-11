@@ -25,4 +25,7 @@ $ git log
 
 #To see what changes are available
 $ git status
+
+#To see the actual changes in a commit 
+$ git diff
 ```
