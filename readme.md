@@ -1,4 +1,4 @@
 ### DevOps Foundations Course & Cheatsheet
 
-#### Versioning
-<insert link>
+#### Documentation
+- [Versioning](https://github.com/ggsmith842/DevOps-Foundations/blob/main/docs/versioning.md)
