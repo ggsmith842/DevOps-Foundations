@@ -19,13 +19,10 @@
 - GitHub
 
 **Useful Commands**
-
-To see the commit history for a repository:
 ```
+#To see the commit history for a repository:
 $ git log
-```
 
-To see what changes are available 
-```
+#To see what changes are available 
 $ git status
 ```
