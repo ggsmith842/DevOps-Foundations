@@ -12,3 +12,22 @@
 **Installing Jenkins**
 
 Using Docker
+
+Docker is a great way to start from a clean slate and keep our machine seperate from our development environment. You can 
+always install locally but using docker is really simple.
+
+For this I'll be using the jenkins 2.36.1.1lts-alpine image which runs using Alpine Linux.
+
+Commands to get started:
+
+```bash
+#get the docker image
+docker pull jenkins/jenkins:2.361.1-lts-alpine
+
+#run the docker image
+docker run -d --publish 8080:8080 --volume jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:2.361.1-lts-alpine 
+
+#for initial login only
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPasswordbas
+```
+And that's it! You can now access Jenkins on localhost:8080
