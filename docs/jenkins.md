@@ -2,8 +2,13 @@
 
 *Definition: Jenkins is an open source automation server*
 
+Jenkins facilitates continuous integration and continuous delivery in software projects by automating parts related to build, test, and deployment. This makes it easy for developers to continuously work on the betterment of the product by integrating changes to the project.
+
+Jenkins automates the software builds in a continuous manner and lets the developers know about the errors at an early stage.
+
+
 **Key Terms**
-1. Project/Job -  a colleciton of tests you want jenkins to manage
+1. Project/Job -  a collection of tests you want jenkins to manage
 2. Build - one run of a project (build a project/start a build)
 3. Build Step - a task inside a project
 4. Build Trigger - criteria for starting a build
