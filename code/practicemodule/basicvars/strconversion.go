@@ -1,4 +1,4 @@
-package main
+package basicvars
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 )
 
 
-func main() {
+func StrConversion() {
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter text: ")

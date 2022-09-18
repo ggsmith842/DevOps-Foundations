@@ -1,11 +1,11 @@
-package main
+package basicvars
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Mathops() {
 	fmt.Println("Here is some math!")
 
 	i1,i2,i3 := 12,13,14
@@ -31,3 +31,4 @@ func main() {
 	fmt.Printf("Circumference: %.2f\n", circumference)
 
 }
+

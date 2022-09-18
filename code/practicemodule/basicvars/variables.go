@@ -1,8 +1,8 @@
-package main //declare the package this file belongs to
+package basicvars //declare the package this file belongs to
 
 import "fmt" //import other packages;fmt is from the standard library
 
-func main() {
+func Variables() {
 
 	//declare and initialize a variable
 	var aString string = "This is Go!"

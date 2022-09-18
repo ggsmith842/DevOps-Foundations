@@ -1,15 +1,15 @@
 package main
 
 import (
+	c "code/code/mymodule/mypackage"
 	"fmt"
-	m "mymodule/mypackage"
+	
 )
-
 
 // main function to execute code
 func main() {
 	fmt.Println("Hello World")
-	m.PrintHello()
+	c.PrintHello()
 
 }
 

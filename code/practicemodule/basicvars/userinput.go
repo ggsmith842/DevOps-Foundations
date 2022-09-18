@@ -1,4 +1,4 @@
-package main
+package basicvars
 
 import (
 	//we can import multiple packages like so 
@@ -8,7 +8,7 @@ import (
 
 )
 
-func main() {
+func UserInput() {
 
 	//create a new reader with an input parameter
 	reader := bufio.NewReader(os.Stdin)

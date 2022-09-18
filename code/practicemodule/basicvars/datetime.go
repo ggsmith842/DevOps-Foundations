@@ -1,11 +1,11 @@
-package main
+package basicvars
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func Datetime() {
 
 	//let's create some time variables
 	n := time.Now()

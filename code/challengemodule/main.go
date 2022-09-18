@@ -1,13 +1,12 @@
 package main
 
 import (
+	"bufio"
+	c "code/code/challengemodule/challengeutils"
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
-	"bufio"
-	"os"
-	c "challengemodule/challengeutils"
-	
 )
 
 
@@ -32,8 +31,5 @@ func main() {
 		fmt.Println("Total:", result)
 	}
 
-	
-
-	
 
 }
