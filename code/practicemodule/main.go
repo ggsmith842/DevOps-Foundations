@@ -1,10 +1,15 @@
 package main
 
 import (
-	// b "code/code/practicemodule/basicvars" 
-	c "code/code/practicemodule/complexvars"
+	// b "code/code/practicemodule/basicvars"
+	// c "code/code/practicemodule/complexvars"
+	p "code/code/practicemodule/programflow"
 )
 
 func main() {
-	c.Arrays()
+
+	p.PrintColors()
+
+
+
 }
