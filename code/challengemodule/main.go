@@ -1,35 +1,43 @@
 package main
 
-import (
-	"bufio"
-	c "code/code/challengemodule/challengeutils"
-	"fmt"
-	"os"
-	"strconv"
-	"strings"
-)
-
+import 	c "code/code/challengemodule/challengeutils"
+import "fmt"
 
 func main() {
 	
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter 1st Value: ")
-	input1,_ := reader.ReadString('\n')
-	aNum1, err1 := strconv.ParseFloat(strings.TrimSpace(input1),64)
+	run := "Y"	
+	for run != "N"  {
+		run = c.GetRun()
 
-	fmt.Print("Enter 2nd Value:")
-	input2,_ := reader.ReadString('\n')
-	aNum2, err2 := strconv.ParseFloat(strings.TrimSpace(input2),64)
+		val1:=c.GetInput()
+		val2:=c.GetInput()
+		op := c.GetOperation()
 
-	
-	if (err1 != nil) || (err2 != nil) {
-		fmt.Println("An error occurred :/")
+		switch op {
+		case "+":
+			fmt.Println("The sum is: ",c.Add(val1,val2))
+		case "-":
+			fmt.Println("The difference is: ",c.Sub(val1,val2))
+		case "*":
+			fmt.Println("The product is: ",c.Multiply(val1,val2))
+		case "/":
+			fmt.Println("The quotient is: ",c.Divide(val1,val2))
+		default:
+			fmt.Println("Hmm..I don't know that one")
 
-	} else {
+		
+		}
+		run = c.GetRun()
+		if run != "Y" {
+			fmt.Println("Thanks for calculating! Come again :)")
+			break
+		}
 
-		result := c.Add(aNum1,aNum2)
-		fmt.Println("Total:", result)
 	}
+	
+
+		
+
 
 
 }
