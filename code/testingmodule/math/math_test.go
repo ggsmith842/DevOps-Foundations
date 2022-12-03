@@ -26,7 +26,7 @@ func TestAddition(t *testing.T) {
 		{"TestBothPositive",2,5,7},
 		{"TestBothNegative",-2,-5,-7},
 		//add a failing test
-		{"TestToFail",1,1,0},
+		// {"TestToFail",1,1,0},
 	}
 
 	//this for loop runs the test for each case in the table
